@@ -1,0 +1,77 @@
+body {
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    position: relative;
+}
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    text-align: center;
+}
+.title {
+    text-transform: uppercase;
+    color: #F1C6E7;
+}
+.box {
+    background-color: #F7E8F6;
+    border-radius: 25px;
+    text-align: center;
+    width: 600px;
+    padding: 20px;
+}
+.search-box {
+    gap: 10px;
+}
+.search-input {
+    height: 30px;
+    padding: 5px;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    width: 300px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+.search-btn {
+    height: 38px;
+    border-radius: 25px;
+    background-color: #F1C6E7;
+    color: white;
+    width: 150px;
+    border: none;
+    outline: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+    font-weight: bold;
+}
+.search-btn:hover {
+    cursor: pointer;
+    background-color: white;
+    color: #F1C6E7;
+}
+.flex-card {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+    padding: 20px;
+}
+.card {
+    background-color: #F1C6E7 ;
+    /* height: 100px; */
+    width: 150px;
+    border-radius: 20px;
+}
+.card-body {
+    text-align: center;
+    position: relative;
+}
+h4 {
+    color: white;
+}
+p {
+    font-weight: bold;
+    color: #57375D;
+}
